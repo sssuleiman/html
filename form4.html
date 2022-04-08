@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <br /><br />
+    <form action="#">
+      <fieldset style="width: 30%;">
+        <legend>Academic information</legend>
+        <label for="Degree">Degree</label>
+        <select name="Degree">
+          <option value="Master of Business Administration">
+            Master of Business Administration
+          </option>
+          <option value="Computer Science">Computer Science</option></select
+        ><br />
+        <label for="StudentID">StudentID <input type="text" /></label><br />
+        <label for="Classes attended">Classes attended</label>
+        <select name="Classes attended" size="3">
+          <option value="Geograph">Geography</option>
+          <option value="mathematic"> Mathematics</option>
+          <option value="english">english</option>
+        </select>
+      </fieldset>
+
+      <fieldset style="width: 30%;">
+        <legend>Personal Details</legend>
+        <br />
+        <label for="StudentID">First Name <input type="text" /></label><br />
+        <label for="StudentID">Last Name <input type="text" /></label><br />
+        <label for="Gender"> Gender</label> <input type="radio" id="gender" name="gender" value="male"/> Male 
+        <input type="radio" id="gender" name="gender" value="female"/> Female 
+        <br>
+        <label for="Email">Email: <input type="text" > </label>
+      </fieldset>
+      <textarea name="text" id="" cols="30" rows="5"> Term and condition....</textarea>
+      <br><br>
+      <button>send form</button>
+      <button>clear form</button>
+    </form>
+
+  </body>
+</html>
